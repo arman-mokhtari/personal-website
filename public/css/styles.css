@@ -1,0 +1,108 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+svg,
+span {
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.MuiCard-root::-webkit-scrollbar,
+.MuiPaper-root::-webkit-scrollbar,
+.MuiGrid2-root::-webkit-scrollbar {
+  display: none;
+}
+
+.experience-links {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: grey;
+}
+
+.psBefore .MuiTypography-root::before {
+  content: ":";
+  margin-right: 12px;
+}
+
+.ps-card-media .img-box-span-1::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #0381ff8a;
+  height: 60%;
+  width: 10px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.ps-card-media:hover .img-box-span-1::after {
+  height: 100%;
+}
+
+.ps-card-media .img-box-span-1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #0381ff8a;
+  height: 60%;
+  width: 10px;
+  transition: all 0.5s;
+}
+
+.ps-card-media:hover .img-box-span-1::before {
+  height: 100%;
+}
+
+.review-card-triangle::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 30px;
+  width: 1px;
+  height: 0px;
+  border-style: solid;
+  border-width: 20px 10px 0 0;
+  border-color: transparent transparent transparent transparent;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.review-card-triangle::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 29px;
+  width: 2px;
+  height: 0px;
+  border-style: solid;
+  border-width: 21px 11px 0 0;
+  border-color: transparent transparent transparent transparent;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
