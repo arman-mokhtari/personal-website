@@ -1,7 +1,7 @@
 import { socialData } from "../../constants/socialData";
 import { IconButton, Box } from "@mui/material";
 
-const SidebarSocial = ({ id, ariaLabel, title, href, icon }) => {
+const SidebarSocial = () => {
     return (
         <Box
             component="div"
@@ -10,8 +10,7 @@ const SidebarSocial = ({ id, ariaLabel, title, href, icon }) => {
                 textAlign: "center",
             }} >
             {
-                socialData.map((data) => {
-                    const { ariaLabel, title, href, icon, id } = data;
+                socialData.map(({ ariaLabel, title, href, icon, id }) => {
                     return (<IconButton
                         key={id} 
                         sx={{

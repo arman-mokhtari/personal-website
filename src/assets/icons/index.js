@@ -4,3 +4,5 @@ export { default as BootstrapIcon } from "./bootstrap-5-1.svg";
 export { default as TailwindsIcon } from "./tailwind-css-2.svg";
 export { default as JsIcon } from "./javascript.svg";
 export { default as ReactIcon } from "./react-original.svg";
+export { default as NodeIcon } from "./node.svg";
+export { default as MuiIcon } from "./mui.svg";

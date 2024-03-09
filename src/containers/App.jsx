@@ -29,7 +29,7 @@ const App = () => {
 
   useEffect(() => {
     setMode(prefersDarkMode ? "dark" : "light");
-  }, [])
+  }, [prefersDarkMode])
 
   const handleThemeChange = () => {
     setMode((prevMode) => (prevMode === "light" ? "dark" : "light"));

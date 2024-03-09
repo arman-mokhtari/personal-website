@@ -4,7 +4,9 @@ import {
     BootstrapIcon,
     TailwindsIcon,
     JsIcon,
-    ReactIcon
+    ReactIcon,
+    NodeIcon,
+    MuiIcon
 } from "../assets/icons";
 
 export const devSkills = {
@@ -37,5 +39,15 @@ export const devSkills = {
         id: 5,
         name: "React",
         icon: ReactIcon,
+    },
+    nodeSkill: {
+        id: 6,
+        name: "Node.js",
+        icon: NodeIcon,
+    },
+    muiSkill: {
+        id: 7,
+        name: "MUI",
+        icon: MuiIcon,
     },
 };

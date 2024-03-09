@@ -4,7 +4,7 @@ export const serviceCardData = [
     {
         id: 0,
         title: "Web Design",
-        text: "My specialty is frontend, which includes web design also includes web apps, mobile apps, and user interface design.",
+        text: "I design beautiful and intuitive interfaces with a focus on user experience and delivering responsive designs.",
         icon: (<BrushOutlined
             sx={{
                 fontSize: "3rem",
