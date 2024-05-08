@@ -15,7 +15,7 @@ const SidebarTabs = () => {
         <Tabs
             orientation='vertical'
             variant='scrollable'
-            scrollButton='auto'
+            scrollButtons='auto'
             allowScrollButtonsMobile
             value={pageNumber}
             onChange={handlePageNumber}
